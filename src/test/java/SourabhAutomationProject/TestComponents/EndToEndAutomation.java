@@ -23,8 +23,7 @@ public class EndToEndAutomation extends BaseTest {
 	public void submitOrder(HashMap<String,String> input) throws InterruptedException, IOException {
 
 		
-		//This method performs end-to-end automation testing of ECommerce website
-
+		
 		ProductCatalogue prodCat = landingPage.login(input.get("email"), input.get("password"));
 		List<WebElement> products = prodCat.getProductsList();
 		WebElement prod = prodCat.getProductByName(input.get("itemToBeAdded"));
