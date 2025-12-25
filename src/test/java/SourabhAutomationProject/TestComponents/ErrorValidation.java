@@ -13,6 +13,7 @@ public class ErrorValidation extends BaseTest {
 	@Test(groups = { "errorHandling" })
 	public void loginErrorValidation() throws IOException {
 
+		//This method verifies if the error message is displayed or not.
 		
 		landingPage.login("sourabhdeshpande08@gmail.com", "S@uRabh@0890");
 		String errorText = landingPage.getErrorMessage();
