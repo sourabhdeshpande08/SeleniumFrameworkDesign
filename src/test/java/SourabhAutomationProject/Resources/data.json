@@ -1,0 +1,22 @@
+[
+	{
+		
+		"email" : "sourabhdeshpande@gmail.com",
+		"password" : "S@uRabh@1990",
+		"itemToBeAdded" : "ZARA COAT 3",
+		"expectedText":"THANKYOU FOR THE ORDER."
+		
+	},
+	{
+		
+		"email" : "aavyan@gmail.com",
+		"password" : "A@vyan@2021",
+		"itemToBeAdded" : "ADIDAS ORIGINAL",
+		"expectedText" : "THANKYOU FOR THE ORDER."
+		
+		
+	}
+	
+	
+		
+]

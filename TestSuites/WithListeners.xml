@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="SourabhAutomationProject.TestComponents.Listeners" />
+	</listeners>
+
+	<test thread-count="1" name="End To End Automation Test">
+		<classes>
+			<class
+				name="SourabhAutomationProject.TestComponents.EndToEndAutomation" />
+		</classes>
+	</test> <!--
+	Test -->
+
+	<test thread-count="1" name="Error Validation Test">
+		<classes>
+			<class
+				name="SourabhAutomationProject.TestComponents.ErrorValidation" />
+		</classes>
+
+	</test>
+</suite> <!--
+Suite -->
